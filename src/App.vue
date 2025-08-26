@@ -5,7 +5,7 @@
     <div class="statustext-container">
       <p class="statustext">{{ ui_params.connected ? '已连接设备' : '设备未连接' }}</p>
       <p class="statustext"
-        style="font-size: 18px; font-weight: 500; margin-top: -15px; max-lines: 1; text-overflow: ellipsis;"
+        style="font-size: 17px; font-weight: 500; margin-top: -15px; max-lines: 1; text-overflow: ellipsis;"
         v-if="ui_params.connected">{{
       ui_params.connected_device_name }}</p>
     </div>
