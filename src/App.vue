@@ -1,5 +1,4 @@
 <template>
-  <p class="pagetitle">主页</p>
   <div class="statusbox">
     <img class="connectstatus" :src="ui_params.connected ? '/true.svg' : '/empty.svg'">
     <div class="statustext-container">
@@ -10,24 +9,11 @@
       ui_params.connected_device_name }}</p>
     </div>
   </div>
-  <div class="infobox" style="margin-top: 20px; height: 251px">
+  <div class="infobox" style="margin-top: 20px; height: 181px">
     <div class="infotext" style="margin-top: 30px">小米运动健康连接状态</div>
     <div class="infotext infodetail">{{ ui_params.mifitness_connected ? '已连接' : '未连接' }}</div>
     <div class="infotext">设备权限申请状态</div>
     <div class="infotext infodetail">{{ ui_params.device_permission ? '已授权' : '未授权' }}</div>
-    <div class="infotext">腕管Pro同步器版本</div>
-    <div class="infotext infodetail">{{ ui_params.interconnect_tool_version }}</div>
-  </div>
-  <div class="infobox" style="margin-top: 20px; height: 258px">
-    <div style="margin-top: 20px; align-items: center; display: flex; flex-direction: row; margin-left: 30px;">
-      <img src="/about.svg">
-      <div style="font-size: 25px; font-weight: 600; margin-left: 15px; color: white">关于本应用</div>
-    </div>
-    <div class="infotext" style="margin-top: 10px">参与制作的人员</div>
-    <div class="info-devname" style="margin-top: 10px">@台风眼Typheye</div>
-    <div style="font-weight: 600; font-size: 22px; color: white; margin-top: 10px; margin-left: 30px">本应用永久免费且开源</div>
-    <div style="font-weight: 600; font-size: 20px; color: white; margin-top: 4px; margin-left: 30px">并遵循GPL-V3协议</div>
-    <div style="font-weight: 600; font-size: 20px; color: white; margin-top: 4px; margin-left: 30px">禁止倒卖或违反开源协议</div>
   </div>
   <div class="infobox" style="margin-top: 20px; height: 298px">
     <div style="margin-top: 20px; align-items: center; display: flex; flex-direction: row; margin-left: 30px;">

@@ -81,10 +81,6 @@
 body {
     font-family: 'MiSans', sans-serif;
     font-weight: 400;
-    background-color: #32618d;
+    background-color: #32618D;
     padding: 15px 30px;
-}
-
-p {
-    color: white
 }
